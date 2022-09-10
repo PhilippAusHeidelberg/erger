@@ -23,6 +23,11 @@ input.onButtonPressed(Button.A, function () {
             `)
     }
 })
+input.onGesture(Gesture.Shake, function () {
+    basic.showString("he las")
+    basic.showString("das du")
+    basic.showString("schwein")
+})
 input.onButtonPressed(Button.B, function () {
     basic.showLeds(`
         # . . . #
